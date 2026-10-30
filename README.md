@@ -7,7 +7,8 @@ Want to change colors, add your logo, or manage signatures for a team without to
 ## Contents
 
 - [Templates](#templates)
-- [How to use a template](#how-to-use-a-template)
+- [Edit a template in the Visual Editor](#edit-a-template-in-the-visual-editor)
+- [Use a template without the editor](#use-a-template-without-the-editor)
 - [Compatibility notes](#compatibility-notes)
 - [Customizing](#customizing)
 - [License and attribution](#license-and-attribution)
@@ -42,7 +43,27 @@ Each template is a single `.html` file in the [`templates/`](templates/) folder.
 | Modern purple | Rounded photo, contact info box, outlined "Get Started" button, banner | [modern-purple.html](templates/modern-purple.html) | [Open](https://signatureforemail.com/site/visual-editor?utm_source=github&utm_medium=readme&utm_campaign=modern-purple) |
 | Accent bar coral | Coral vertical accent bar, photo, text-link social links (no icon images), "Book a meeting" link, compact and very compatible | [accent-bar-coral.html](templates/accent-bar-coral.html) | [Open](https://signatureforemail.com/site/visual-editor?utm_source=github&utm_medium=readme&utm_campaign=accent-bar-coral) |
 
-## How to use a template
+## Edit a template in the Visual Editor
+
+You can edit any template without changing code. Choose one of two ways to get it into the [Visual Editor](https://signatureforemail.com/site/visual-editor?utm_source=github&utm_medium=readme&utm_campaign=import):
+
+### Option A: copy and paste
+
+1. Open the template file in the [`templates/`](templates/) folder.
+2. Click the **Copy raw file** icon (two overlapping squares) at the top right of the file view. This copies the complete HTML.
+3. Open the [Visual Editor](https://signatureforemail.com/site/visual-editor?utm_source=github&utm_medium=readme&utm_campaign=import) and paste the HTML into the editor's HTML import field.
+4. Edit the text, colors, photo and links visually, then copy your finished signature.
+
+### Option B: download and upload
+
+1. Open the template file in the [`templates/`](templates/) folder.
+2. Click the **Download raw file** icon (arrow pointing down) next to the copy icon. The `.html` file is saved to your computer.
+3. Open the [Visual Editor](https://signatureforemail.com/site/visual-editor?utm_source=github&utm_medium=readme&utm_campaign=import) and upload the downloaded `.html` file using the editor's HTML upload option.
+4. Edit the signature visually, then copy your finished signature.
+
+Tip: To download several templates at once, click the green **Code** button on the repository page and choose **Download ZIP**.
+
+## Use a template without the editor
 
 1. Open the `.html` file and replace the placeholder text (name, title, phone, links) with your own.
 2. Replace the placeholder images (`placehold.co` and icon URLs) with images hosted on your own server or CDN. Email clients can't load local file paths.
