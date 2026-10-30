@@ -1,6 +1,6 @@
 # Email Signature HTML Templates
 
-9 free, copy-and-paste HTML email signature templates. Table-based layouts with inline CSS, built for Outlook, Gmail, Apple Mail and other major email clients.
+10 free, copy-and-paste HTML email signature templates. Table-based layouts with inline CSS, built for Outlook, Gmail, Apple Mail and other major email clients.
 
 Want to change colors, add your logo, or manage signatures for a team without touching code? **[Edit any of these templates visually at SignatureForEmail.com](https://signatureforemail.com/site/visual-editor?utm_source=github&utm_medium=readme&utm_campaign=templates-header)**
 
@@ -40,6 +40,7 @@ Each template is a single `.html` file in the [`templates/`](templates/) folder.
 | Minimal mono | Black and white, uppercase name, grayscale social icons, "View Portfolio" button, banner | [minimal-mono.html](templates/minimal-mono.html) | [Open](https://signatureforemail.com/site/visual-editor?utm_source=github&utm_medium=readme&utm_campaign=minimal-mono) |
 | Modern teal | Vertical social icon column, "Schedule a Call" button, full-width bottom banner | [modern-teal.html](templates/modern-teal.html) | [Open](https://signatureforemail.com/site/visual-editor?utm_source=github&utm_medium=readme&utm_campaign=modern-teal) |
 | Modern purple | Rounded photo, contact info box, outlined "Get Started" button, banner | [modern-purple.html](templates/modern-purple.html) | [Open](https://signatureforemail.com/site/visual-editor?utm_source=github&utm_medium=readme&utm_campaign=modern-purple) |
+| Accent bar coral | Coral vertical accent bar, photo, text-link social links (no icon images), "Book a meeting" link, compact and very compatible | [accent-bar-coral.html](templates/accent-bar-coral.html) | [Open](https://signatureforemail.com/site/visual-editor?utm_source=github&utm_medium=readme&utm_campaign=accent-bar-coral) |
 
 ## How to use a template
 
@@ -55,7 +56,7 @@ Pasting the rendered signature works better than pasting raw source code in most
 
 - Layout uses nested tables, because Outlook (Windows) ignores most modern CSS.
 - Styles are inline. `<style>` blocks and external stylesheets are stripped by many clients.
-- The **Basic** and **Advanced** templates use the simplest markup and are the safest choice for older Outlook versions.
+- The **Basic** and **Advanced** templates use the simplest markup and are the safest choice for older Outlook versions. **Accent bar coral** is also very safe: no rounded corners or shadows, and its social links are plain text, so nothing disappears when images are blocked.
 - The **Modern** templates use rounded corners, shadows and round photos. Outlook (Windows) shows these as square corners with no shadow; the signature still works. The call-to-action buttons include an Outlook-specific fallback.
 - Use PNG or JPG for images. Avoid SVG and WebP, which several clients don't render.
 - Set `width` and `height` on every image and always include `alt` text, since some clients block images by default.
